@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TuLibroWatt - Libros Digitales Cuba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <meta name="description" content="Compra libros digitales en Cuba. Paga con Transfermóvil o EnZona. Recibe al instante por WhatsApp.">
+</head>
+<body>
+    <!-- Header fijo para móviles -->
+    <header class="mobile-header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-book"></i>
+                <span>TuLibroWatt</span>
+            </div>
+            <div class="whatsapp-fixed">
+                <a href="https://wa.me/5356168991" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="hero-banner">
+        <div class="banner-content">
+            <h1>Libros Digitales en Cuba</h1>
+            <p class="subtitle">Compra, paga y recibe al instante por WhatsApp</p>
+            
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Transfermóvil</span>
+                </div>
+                <div class="payment-method">
+                    <i class="fas fa-qrcode"></i>
+                    <span>EnZona</span>
+                </div>
+            </div>
+            
+            <div class="cta-button">
+                <a href="#catalogo" class="btn-primary">
+                    <i class="fas fa-book-open"></i> Ver Catálogo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de libros -->
+    <main class="container" id="catalogo">
+        <section class="books-section">
+            <h2 class="section-title">
+                <i class="fas fa-star"></i> Libros Disponibles
+            </h2>
+            <p class="section-subtitle">Haz clic en cualquier libro para comprar por WhatsApp</p>
+            
+            <div class="books-container" id="books-container">
+                <!-- Los libros se cargan con JavaScript -->
+            </div>
+        </section>
+
+        <!-- Pasos de compra -->
+        <section class="steps-section">
+            <h2 class="section-title">
+                <i class="fas fa-shopping-cart"></i> ¿Cómo Comprar?
+            </h2>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Elige tu libro</h3>
+                        <p>Selecciona de nuestro catálogo</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Solicita por WhatsApp</h3>
+                        <p>Envía el mensaje automático</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Paga fácilmente</h3>
+                        <p>Usa Transfermóvil o EnZona</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Recibe tu libro</h3>
+                        <p>Te lo enviamos por WhatsApp</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Atención al cliente -->
+        <section class="contact-section">
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-info">
+                    <h3>Atención por WhatsApp</h3>
+                    <p class="phone-number">+53 56168991</p>
+                    <p class="schedule">9:00 AM - 9:00 PM todos los días</p>
+                    
+                    <a href="https://wa.me/5356168991?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20los%20libros%20digitales" 
+                       target="_blank" 
+                       class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Chatear ahora
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mobile-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i class="fas fa-book-reader"></i>
+                <h3>TuLibroWatt</h3>
+                <p>Tu librería digital en Cuba</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="https://wa.me/5356168991" target="_blank" class="footer-link">
+                    <i class="fab fa-whatsapp"></i> Soporte
+                </a>
+                <a href="#catalogo" class="footer-link">
+                    <i class="fas fa-book"></i> Catálogo
+                </a>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2026 TuLibroWatt - Libros Digitales Cuba</p>
+                <p class="disclaimer">Los precios están en pesos cubanos (CUP)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5356168991" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
